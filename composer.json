@@ -1,0 +1,28 @@
+{
+  "name": "lennan747/yop-sdk-php",
+  "version": "3.2.24",
+  "description": "yee pay sdk",
+  "homepage": "https://open.yeepay.com",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "lennan747",
+      "email": "lennan747@yeepay.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "~6.4.1",
+    "monolog/monolog": "~1.25.2",
+    "ext-openssl": "*",
+    "ext-json": "*"
+  },
+  "require-dev": {
+        "phpunit/phpunit": "^4.8"
+    },
+  "autoload": {
+        "psr-4": { "Yeepay\\Yop\\Sdk\\" : "lib/" }
+    },
+  "autoload-dev": {
+        "psr-4": { "Yeepay\\Yop\\Sdk\\" : "test/" }
+  }
+}
